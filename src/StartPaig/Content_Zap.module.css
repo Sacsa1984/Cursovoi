@@ -1,0 +1,16 @@
+.ContentNapol{
+    width: 250px; /* Ширина слоя */
+    margin: 2px; /* Значение отступов */
+    padding: 1px;
+
+
+}
+.ContentNapol_Div{
+    float: left;
+    width: 300px; /* Ширина слоя */
+    margin: 1px; /* Значение отступов */
+    padding: 1px;
+}
+.text {
+    width: 200px
+}

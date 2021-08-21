@@ -1,0 +1,18 @@
+.Start_Page{
+    display: grid;
+    grid-template-areas: 
+    "Menu"
+    "Post"
+    "Opis"
+    "Content"
+    ;
+grid-template-rows:120px 300px 200px 1fr;
+grid-template-columns: 1fr;
+margin: 0px;
+}
+
+
+
+
+
+

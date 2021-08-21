@@ -1,0 +1,97 @@
+.Hed_Menu{
+    grid-area:Menu ;
+    background-color: aqua;
+
+}
+.Menu{
+    display: grid;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-areas:
+    "Log conta podb"
+    "Log bl1 podb"
+;
+}
+.Logo{
+    grid-area:Log;
+
+}
+.contact{
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 40px 250px 40px 250px 40px 1fr;
+    grid-template-areas:
+    "Tl1 Tl11 Tl2 Tl22 Tl3"
+;
+    padding: 5px 5px;
+    background-color: beige;
+    grid-area:conta;
+
+}
+.Tel1{
+    margin: 0px 10px;
+
+    grid-area:Tl1;
+}
+.Tel11{
+
+    font-size: 30px;
+    grid-area:Tl11;
+}
+.Tel2{
+    margin: 0px 10px;
+    grid-area:Tl2;
+}
+.Tel22{
+
+    font-size: 30px;
+    grid-area:Tl22;
+}
+.Tel3{
+
+
+    grid-area:Tl3;
+}
+.Zapol {
+    overflow: auto;
+    font-size: 20px;
+    color: crimson;
+}
+.blocMenu{
+    grid-area:bl1;
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-areas:
+    "blocMenuBut1 blocMenuBut2 blocMenuBut3 blocMenuBut4"
+;
+}
+.Button1{
+    grid-area:blocMenuBut1;
+
+    font-size: 22px;
+}
+.Button2{
+    grid-area:blocMenuBut2;
+    font-size: 22px;
+}
+.Button3{
+    grid-area:blocMenuBut3;
+    font-size: 22px;
+}
+.Button4{
+    grid-area:blocMenuBut4;
+    font-size: 22px;
+}
+.podbor{
+    grid-area:podb;
+    background-color: beige;
+
+}
+.ButtonPodbor{
+    font-size: 18px;
+    color: blue;
+    /*background-color: goldenrod;*/
+
+
+}

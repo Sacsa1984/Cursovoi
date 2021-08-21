@@ -1,0 +1,31 @@
+.Hed{
+    grid-area:Opis
+
+}
+.bloc3{
+    display: grid;
+    grid-template-rows:200px;
+    grid-template-columns:4fr 4fr 4fr;
+    grid-template-areas:
+    "b1 b2 b3";
+
+}
+.Bloc_1{
+    grid-area:b1;
+    background-color: crimson;
+
+    /*background: url("public/Pcht.jpg");*/
+}
+.Bloc_1.background{
+
+}
+.Bloc_2{
+    grid-area:b2;
+    background-color: goldenrod;
+
+}
+.Bloc_3{
+    background-color: indigo;
+    grid-area:b3;
+
+}
